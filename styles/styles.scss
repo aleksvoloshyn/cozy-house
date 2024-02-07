@@ -1,0 +1,45 @@
+@import './base/reset';
+@import './base/breakpoints.scss';
+@import './base/variables.scss';
+
+.container {
+  max-width: $desktop;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 1px solid lavender;
+}
+
+body {
+  font-size: 18px;
+  font-family: $primary-font;
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+//header styles
+.page-header {
+  margin-top: 30px;
+  margin-bottom: 90px;
+  min-height: 60px;
+  border: 1px solid lightblue;
+}
+
+// section styles
+.section {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  border: 1px solid lightslategray;
+}
+
+//footer styles
+.page-footer {
+  min-height: 350px;
+  border: 1px solid lightblue;
+}
+
+@media (max-width: $tablet) {
+}
+@media (max-width: $mobile) {
+}

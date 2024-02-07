@@ -1,0 +1,76 @@
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.centered {
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 1px solid lavender;
+}
+
+body {
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.page-header {
+  margin-top: 30px;
+  margin-bottom: 90px;
+  min-height: 60px;
+  border: 1px solid lightblue;
+}
+
+.section {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  border: 1px solid lightslategray;
+}
+
+.page-footer {
+  min-height: 350px;
+  border: 1px solid lightblue;
+}/*# sourceMappingURL=styles.css.map */
