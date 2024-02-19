@@ -19,6 +19,11 @@ body {
   font-weight: 400;
 }
 
+.button:hover {
+  background-color: #ffffff;
+  color: $primary-color;
+}
+
 // start-screen section
 .start-screen {
   &__wrapper {
@@ -42,6 +47,21 @@ body {
     gap: 35px;
     font-family: $secondary-font;
     color: $light-text-color;
+  }
+
+  .start-screen__link {
+    border-bottom: 2px solid transparent;
+  }
+  .active .start-screen__link {
+    color: rgb(250, 250, 250);
+    border-bottom: 2px solid $primary-color;
+  }
+
+  .item {
+    &:hover .start-screen__link {
+      color: rgb(250, 250, 250);
+      border-bottom: 2px solid $primary-color;
+    }
   }
   &__title {
     color: $primary-color;
@@ -151,6 +171,17 @@ body {
     margin-bottom: 60px;
     color: $dark-text-color-titles;
   }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    padding: 23px 19px 23px 19px;
+    border: 2px solid $primary-color;
+    border-radius: 100px;
+    cursor: pointer;
+  }
   &__button {
     &--left {
       margin-right: 53px;
@@ -159,6 +190,7 @@ body {
       margin-left: 53px;
     }
   }
+
   &__cards {
     display: flex;
     justify-content: space-between;
@@ -181,6 +213,12 @@ body {
     padding-bottom: 30px;
     border-radius: 9px;
     background: rgb(250, 250, 250);
+    transition: transform 0.8s ease;
+    &:hover {
+      // transform: translateY(-5px);
+      transform: scale(1.01);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
   }
   &__name {
     color: $dark-text-color-labels;

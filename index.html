@@ -27,16 +27,20 @@
             <nav class="start-screen__nav">
               <ul class="start-screen__nav-list list">
                 <li class="start-screen__nav-item item">
-                  <a href="#about">About the shelter</a>
+                  <a class="start-screen__link" href="#about"
+                    >About the shelter</a
+                  >
                 </li>
                 <li class="start-screen__nav-item item">
-                  <a href="#pets">Our pets</a>
+                  <a class="start-screen__link" href="#pets">Our pets</a>
                 </li>
                 <li class="start-screen__nav-item item">
-                  <a href="#help">Help the shelter</a>
+                  <a class="start-screen__link" href="#help"
+                    >Help the shelter</a
+                  >
                 </li>
                 <li class="start-screen__nav-item item">
-                  <a href="#contacts">Contacts</a>
+                  <a class="start-screen__link" href="#contacts">Contacts</a>
                 </li>
               </ul>
             </nav>
@@ -101,7 +105,11 @@
         <div class="pets__wrapper container">
           <h2 class="pets__title">Our friends who are looking for a house</h2>
           <div class="pets__cards">
-            <div class="pets__button--left">-</div>
+            <div class="pets__button pets__button--left">
+              <svg class="pets__icon" width="14" height="6">
+                <use href="./images/svg/sprite.svg#arrow-left"></use>
+              </svg>
+            </div>
             <ul class="pets__list list">
               <li class="pets__item">
                 <img
@@ -134,7 +142,11 @@
                 <button class="pets__more-button">Learn more</button>
               </li>
             </ul>
-            <div class="pets__button--right">+</div>
+            <div class="pets__button pets__button--right">
+              <svg class="pets__icon" width="14" height="6">
+                <use href="./images/svg/sprite.svg#arrow-right"></use>
+              </svg>
+            </div>
           </div>
           <button class="pets__info-button button">Get to know the rest</button>
         </div>
