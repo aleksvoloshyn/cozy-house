@@ -58,12 +58,13 @@
 
               <button class="start-screen__button button">Make a friend</button>
             </div>
-            <div class="start-screen__image">
+            <div class="start-screen__image-block">
               <img
                 src="./images/start-screen-puppy.png"
                 width="698"
                 height="728"
                 alt="puppy"
+                class="start-screen__image"
               />
             </div>
           </div>
@@ -250,70 +251,73 @@
     <!-- footer -->
     <footer class="page-footer" id="contacts">
       <div class="container page-footer__wrapper">
-        <!-- left block -->
-        <div class="page-footer__contacts-block">
-          <h3 class="page-footer__contacts-title footer-title">
-            For questions and suggestions
-          </h3>
-          <div class="page-footer__mail-block footer-addresses">
-            <svg
-              class="footer-icon page-footer__mail-icon"
-              width="40"
-              height="26"
-            >
-              <use href="./images/svg/sprite.svg#email"></use>
-            </svg>
-            <address>
-              <a href="mailto:email@shelter.com">email@shelter.com</a>
-            </address>
+        <div class="page-footer__info-wrap">
+          <!-- left block -->
+          <div class="page-footer__contacts-block">
+            <h3 class="page-footer__contacts-title footer-title">
+              For questions and suggestions
+            </h3>
+            <div class="page-footer__mail-block footer-addresses">
+              <svg
+                class="footer-icon page-footer__mail-icon"
+                width="40"
+                height="26"
+              >
+                <use href="./images/svg/sprite.svg#email"></use>
+              </svg>
+              <address>
+                <a href="mailto:email@shelter.com">email@shelter.com</a>
+              </address>
+            </div>
+            <div class="page-footer__phone-block footer-addresses">
+              <svg
+                class="footer-icon page-footer__phone-icon"
+                width="40"
+                height="32"
+              >
+                <use href="./images/svg/sprite.svg#phone"></use>
+              </svg>
+              <address>
+                <a href="tel:+136745677554">+13 674 567 75 54</a>
+              </address>
+            </div>
           </div>
-          <div class="page-footer__phone-block footer-addresses">
-            <svg
-              class="footer-icon page-footer__phone-icon"
-              width="40"
-              height="32"
-            >
-              <use href="./images/svg/sprite.svg#phone"></use>
-            </svg>
-            <address>
-              <a href="tel:+136745677554">+13 674 567 75 54</a>
-            </address>
+          <!-- middle block -->
+          <div class="page-footer__address-block">
+            <h3 class="page-footer__address-title footer-title">
+              We are waiting for your visit
+            </h3>
+            <!--  -->
+            <div class="page-footer__address footer-addresses">
+              <svg
+                class="footer-icon page-footer__marker-icon"
+                width="22"
+                height="32"
+              >
+                <use href="./images/svg/sprite.svg#marker"></use>
+              </svg>
+              <address>
+                <p class="page-footer__address-map">
+                  1 Central Street, Boston (<br />entrance from the store)
+                </p>
+              </address>
+            </div>
+            <!--  -->
+            <div class="page-footer__address footer-addresses">
+              <svg
+                class="footer-icon page-footer__marker-icon"
+                width="22"
+                height="32"
+              >
+                <use href="./images/svg/sprite.svg#marker"></use>
+              </svg>
+              <address>
+                <p class="page-footer__address-map">18 South Park, London</p>
+              </address>
+            </div>
           </div>
         </div>
-        <!-- middle block -->
-        <div class="page-footer__address-block">
-          <h3 class="page-footer__address-title footer-title">
-            We are waiting for your visit
-          </h3>
-          <!--  -->
-          <div class="page-footer__address footer-addresses">
-            <svg
-              class="footer-icon page-footer__marker-icon"
-              width="22"
-              height="32"
-            >
-              <use href="./images/svg/sprite.svg#marker"></use>
-            </svg>
-            <address>
-              <p class="page-footer__address-map">
-                1 Central Street, Boston (<br />entrance from the store)
-              </p>
-            </address>
-          </div>
-          <!--  -->
-          <div class="page-footer__address footer-addresses">
-            <svg
-              class="footer-icon page-footer__marker-icon"
-              width="22"
-              height="32"
-            >
-              <use href="./images/svg/sprite.svg#marker"></use>
-            </svg>
-            <address>
-              <p class="page-footer__address-map">18 South Park, London</p>
-            </address>
-          </div>
-        </div>
+
         <!-- last block image -->
         <div class="page-footer__image-block">
           <img
